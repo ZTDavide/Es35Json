@@ -12,7 +12,9 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        System.out.println(readFromFile("src/main/resources/gare.json"));
         Gson gson = new Gson();
+        String json = readFromFile("src/main/resources/gare.json");
+        Gara gara = gson.fromJson(json, Gara.class);
+        System.out.println(gara);
     }
 }
