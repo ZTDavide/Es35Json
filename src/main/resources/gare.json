@@ -1,5 +1,5 @@
-{
-  "gara": {
+[
+  {
     "campo": "A",
     "giudice": "Robot",
     "squadra": "Galileo",
@@ -8,7 +8,7 @@
     "punteggio_difficolta": 101,
     "tempo": 600
   },
-  "gara": {
+  {
     "campo": "A",
     "giudice": "Robot",
     "squadra": "MPolo",
@@ -17,7 +17,7 @@
     "punteggio_difficolta": 295,
     "tempo": 529
   },
-  "gara": {
+  {
     "campo": "B",
     "giudice": "Ugo",
     "squadra": "Galileo",
@@ -26,13 +26,13 @@
     "punteggio_difficolta": 123,
     "tempo": 582
   },
-    "gara": {
-        "campo": "B",
-        "giudice": "Ugo",
-        "squadra": "MPolo",
-        "ora": "15:00:00",
-        "punteggio_percorso": 132,
-        "punteggio_difficolta": 204,
-        "tempo": 492
-    }
-}
+  {
+    "campo": "B",
+    "giudice": "Ugo",
+    "squadra": "MPolo",
+    "ora": "15:00:00",
+    "punteggio_percorso": 132,
+    "punteggio_difficolta": 204,
+    "tempo": 492
+  }
+]

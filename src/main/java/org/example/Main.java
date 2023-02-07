@@ -14,7 +14,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
         Gson gson = new Gson();
         String json = readFromFile("src/main/resources/gare.json");
-        Gara gara = gson.fromJson(json, Gara.class);
-        System.out.println(gara);
+        Gara[] gara = gson.fromJson(json, Gara[].class);
+        for (Gara g : gara) {
+            System.out.println(g);
+        }
     }
 }
